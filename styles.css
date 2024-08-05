@@ -1,0 +1,30 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info span {
+    margin-right: 10px;
+}
+
+.notification-bell {
+    margin-right: 10px;
+width: 10px; /* Adjust the width as needed */
+    height: 10px; /* Adjust the height as needed */
+}
+
+.logout-button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.logout-button:hover {
+    background-color: #555;
+}

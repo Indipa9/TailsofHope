@@ -1,0 +1,61 @@
+/* Reset default margin and padding */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center align the form */
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style the headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style checkbox inputs */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Change submit button color on hover */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
